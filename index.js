@@ -241,7 +241,7 @@ Vue.component('tienda-c', {
 		}
 	},
     sheet: false,
-    template:`<section class="bg-light">
+    template: `<section class="bg-light">
 				<div class="container">
 					<h2 class="pt-3 pb-3 text-center">Tienda oficial</h2> 
                     
