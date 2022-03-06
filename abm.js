@@ -5,7 +5,7 @@ let precio = d.getElementsByClassName('.precio');
 let form = d.getElementsByClassName('form');
 let alerta = d.getElementById('alerta');
 let exitosa = d.getElementById('exitosa');
-let mostrar = d.getElementById('mostrar');
+
 let remeras = [];
 
 //con las variables le asigno una clave y valor y los voy pusheando, y agrego un alerta para avisar que remera se agregó
@@ -35,6 +35,7 @@ function GuardarDB (){
 
 //obtengo todo el localStorage y los voy mostrando en el HTML
 function PintarDB(){
+    let mostrar = d.getElementById('mostrar');
     mostrar.innerHTML = '';
     remeras = JSON.parse(localStorage.getItem('info'));
     if(remeras === null || remeras == ''){
@@ -64,6 +65,7 @@ function PintarDB(){
 
             let fin = d.getElementById('fin');
             fin.onclick = () => {
+                let mostrar = d.getElementById('mostrar');
                 mostrar.innerHTML = '';
                 localStorage.removeItem('info');
                 let pagar = d.getElementById('pagar');
@@ -122,6 +124,7 @@ for (let i = 0; i < form.length; i++) {
 document.addEventListener('DOMContentLoaded', PintarDB);
 
 //busco si el boton se llamar borrar entonces llamo a la funcion eliminar
+let mostrar = d.getElementById('mostrar');
 mostrar.addEventListener('click', (ev) => {
     ev.preventDefault();
     if(ev.target.innerHTML === 'Borrar'){
