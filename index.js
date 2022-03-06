@@ -1,6 +1,6 @@
 Vue.component('home-c', {
     template: `<section>
-<div class="container">
+<div class="container bg-light">
 
     <v-row class="bg-info mt-3 anclas" id="anclas" justify="space-around">
         <v-btn text href="#queen-en-sus-comienzos">Queen en sus comienzos</v-btn>
@@ -8,89 +8,85 @@ Vue.component('home-c', {
         <v-btn text href="#despues-de-freddie">Despúes de Freddie</v-btn>
     </v-row>
 
-</div>
-
-<div class="bg-light">
-
-<a name="queen-en-sus-comienzos"></a>
-            <h2 class="mt-3 pt-3 pb-4 text-center">Queen en sus comienzos</h2>
-<div class="container">
-    <p class="mt-3">Sus raíces sonrientes dejan un poso de hard rock a un grupo que desde el principio mezcla estilos. El azar -o más bien el abandono de Tim Stafell de Smile por otra banda- hizo las veces de destino para Farrokh Bomi Bulsara. El guitarrista y el batería, Brian May y Roger Taylor, buscaban una nueva voz para el grupo que, en un principio, se iba a llamar Grand Dance o The Rich Kids. Nacía así Queen, con la unión del por aquel entonces Freddie Bulsara, que con el tiempo se convertiría en Freddie Mercury. Smile pierde su nombre para convertirse en uno de los grupos más exitosos de todos los tiempos.</p>
-</div>
-
-    <div class="text-center mb-3">
-        <img class="col-12 col-sm-10 col-md-8" src = "img/inicios.png" title="Inicios de Queen" alt="Inicios de Queen">
-    </div>
-<div class="container"> 
-    <p>Los inicios de Queen estuvieron marcados por el reto de encontrar un sello discográfico. Después de meses buscando y con una maqueta de cinco canciones de mala calidad, dos ingenieros de los estudios Trident se fijaron en ellos durante una actuación. Seguían sin sello discográfico, pero al cabo de un tiempo consiguieron editar y lanzar su debut: Queen, publicado en julio de 1973.</p>
-</div>
-
+    <a name="queen-en-sus-comienzos"></a>
+                <h2 class="mt-3 pt-3 pb-4 text-center">Queen en sus comienzos</h2>
     <div class="container">
-    <div class="row">
-    <p class="col-12 col-lg-6 mt-3 d-flex align-items-center fuentenueva">Escrita por Brian May, Keep yourself alive se convierte en el primer sencillo de la formación, así como el primero que regrabaron en varias ocasiones dada la mala calidad de la maqueta que habían registrado previamente. En los meses en los que Trident Studios busca cómo sacar el primer álbum, el cuarteto ya tiene listos los que serían algunos de los temas del siguiente: Queen II.</p>
-
-    <div class="embed-responsive embed-responsive-4by3 col-12 col-lg-6 mt-3 mb-5">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JofwEB9g1zg"></iframe>
-    </div>
-    </div>
-    
-    <h3 v-once>Escalando posiciones</h3>
-    <p class="mb-4">Si con Queen II se convirtieron en la banda del momento en Reino Unido, Sheer heart attack les hizo volar fuera de las fronteras e incluso alcanzar el puesto 12 en las listas de éxitos estadounidenses. Con este canto a una mujer rica, alcanzan el segundo puesto en la lista de éxitos británicos UK Singles Chart. Mercury escribió la canción en una noche, primero la letra y después la música en piano, influido por The Beatles y The Beach Boys. Fue el primer éxito internacional de Queen, cuyo sonido vodevil y el solo de Brian May conquistó también las listas estadounidenses.</p>
+        <p class="mt-3">Sus raíces sonrientes dejan un poso de hard rock a un grupo que desde el principio mezcla estilos. El azar -o más bien el abandono de Tim Stafell de Smile por otra banda- hizo las veces de destino para Farrokh Bomi Bulsara. El guitarrista y el batería, Brian May y Roger Taylor, buscaban una nueva voz para el grupo que, en un principio, se iba a llamar Grand Dance o The Rich Kids. Nacía así Queen, con la unión del por aquel entonces Freddie Bulsara, que con el tiempo se convertiría en Freddie Mercury. Smile pierde su nombre para convertirse en uno de los grupos más exitosos de todos los tiempos.</p>
     </div>
 
-<div class="container">     
-    <p class="mb-5">
-    Uno de los grandes éxitos musicales de Queen, fruto de sueños que tenía Mercury y que reproducía en mitad de la noche en su piano y en miles de papeles. Con A night at the opera -titulada así por la comedia Una noche en la opera protagonizada por los hermanos Marx, que los componentes de Queen vieron en el estudio-, iniciaron su primera gira por Estados Unidos, dejando atrás su etapa de teloneros.  
-    </p>
-</div>
-
-    <a name="la-banda-en-lacima"></a>
-    <h2 class="pt-3 pb-4 text-center colornuevo" v-once>La banda en la cima</h2>
-<div class="container"> 
-    <p class="mt-4">Los dos primeros sencillos del disco A day at the races, el quinto álbum de la banda y el primero producido por ellos, son la mejor comparación de lo diferentes que son componiendo Brian May y Freddie Mercury. El primero, con temas como White man o Tie your mother down, con sonidos de hard rock y una historia sobre el western norteamericano; el segundo, con canciones como Somebody to love o The millionaire Waltz, sirviéndose del gospel y las voces negras.Con la gira A day at the races, Queen tocó por primera vez en el Madison Square Garden de Nueva York. Se originan aquí las escenografías estridentes a juego con la personalidad de Mercury, con una corona iluminada de 5000 libras en la actuación del Earls Court de Londres.</p>
-
-    <div class="row pb-4">
-        <div class="d-md-block col-md-1 col-lg-2"></div>
-        <img class="col-12 col-sm-6 col-md-5 col-lg-4" src="img/queen1976.png" title="Queen en 1976" alt="Queen 1976">
-        <img class="col-12 col-sm-6 col-md-5 col-lg-4" src="img/queen1976_1.jpg" title="Queen en 1976" alt="Queen 1976">
+        <div class="text-center mb-3">
+            <img class="col-12 col-sm-10 col-md-8" src = "img/inicios.png" title="Inicios de Queen" alt="Inicios de Queen">
+        </div>
+    <div class="container"> 
+        <p>Los inicios de Queen estuvieron marcados por el reto de encontrar un sello discográfico. Después de meses buscando y con una maqueta de cinco canciones de mala calidad, dos ingenieros de los estudios Trident se fijaron en ellos durante una actuación. Seguían sin sello discográfico, pero al cabo de un tiempo consiguieron editar y lanzar su debut: Queen, publicado en julio de 1973.</p>
     </div>
 
-    <p>Con los rumores de una posible separación a sus espaldas, Queen edita y lanza su sexto álbum de estudio en 1977, con temas que se convertirán en himnos deportivos protagonistas en Superbowls y todo evento deportivo que se precie.Sobre We are the champions, Freedie llegó a decir que la había compuesto para el Manchester United Football Club, aunque nunca se ha llegado a aclarar el origen de la letra.</p>
+        <div class="container">
+        <div class="row">
+        <p class="col-12 col-lg-6 mt-3 d-flex align-items-center fuentenueva">Escrita por Brian May, Keep yourself alive se convierte en el primer sencillo de la formación, así como el primero que regrabaron en varias ocasiones dada la mala calidad de la maqueta que habían registrado previamente. En los meses en los que Trident Studios busca cómo sacar el primer álbum, el cuarteto ya tiene listos los que serían algunos de los temas del siguiente: Queen II.</p>
 
-    
-    
-    <div class="row pb-4">
-        <div class="embed-responsive embed-responsive-16by9 col-12 col-lg-6 mt-3 mb-5">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NVIbCvfkO3E"></iframe>
+        <div class="embed-responsive embed-responsive-4by3 col-12 col-lg-6 mt-3 mb-5">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JofwEB9g1zg"></iframe>
+        </div>
+        </div>
+        
+        <h3 v-once>Escalando posiciones</h3>
+        <p class="mb-4">Si con Queen II se convirtieron en la banda del momento en Reino Unido, Sheer heart attack les hizo volar fuera de las fronteras e incluso alcanzar el puesto 12 en las listas de éxitos estadounidenses. Con este canto a una mujer rica, alcanzan el segundo puesto en la lista de éxitos británicos UK Singles Chart. Mercury escribió la canción en una noche, primero la letra y después la música en piano, influido por The Beatles y The Beach Boys. Fue el primer éxito internacional de Queen, cuyo sonido vodevil y el solo de Brian May conquistó también las listas estadounidenses.</p>
         </div>
 
-        <p class="col-12 col-lg-6 d-flex align-items-center fuentenueva">A pesar de rechazar el uso de los sintetizadores desde los inicios, poniendo incluso en la carátula de su primer disco "no se han usado sintetizadores", The Game(1980) es el primer álbum de la banda en el que se usaron. La canción Another one bites the dust, compuesta por John Deacon, fue el cuarto single del álbum y el segundo número uno en Estados Unidos, a pesar de que la banda no consideraba lo suficientemente buena la canción escrita por el bajista.</p>
+    <div class="container">     
+        <p class="mb-5">
+        Uno de los grandes éxitos musicales de Queen, fruto de sueños que tenía Mercury y que reproducía en mitad de la noche en su piano y en miles de papeles. Con A night at the opera -titulada así por la comedia Una noche en la opera protagonizada por los hermanos Marx, que los componentes de Queen vieron en el estudio-, iniciaron su primera gira por Estados Unidos, dejando atrás su etapa de teloneros.  
+        </p>
+    </div>
+
+        <a name="la-banda-en-lacima"></a>
+        <h2 class="pt-3 pb-4 text-center colornuevo" v-once>La banda en la cima</h2>
+    <div class="container"> 
+        <p class="mt-4">Los dos primeros sencillos del disco A day at the races, el quinto álbum de la banda y el primero producido por ellos, son la mejor comparación de lo diferentes que son componiendo Brian May y Freddie Mercury. El primero, con temas como White man o Tie your mother down, con sonidos de hard rock y una historia sobre el western norteamericano; el segundo, con canciones como Somebody to love o The millionaire Waltz, sirviéndose del gospel y las voces negras.Con la gira A day at the races, Queen tocó por primera vez en el Madison Square Garden de Nueva York. Se originan aquí las escenografías estridentes a juego con la personalidad de Mercury, con una corona iluminada de 5000 libras en la actuación del Earls Court de Londres.</p>
+
+        <div class="row pb-4">
+            <div class="d-md-block col-md-1 col-lg-2"></div>
+            <img class="col-12 col-sm-6 col-md-5 col-lg-4" src="img/queen1976.png" title="Queen en 1976" alt="Queen 1976">
+            <img class="col-12 col-sm-6 col-md-5 col-lg-4" src="img/queen1976_1.jpg" title="Queen en 1976" alt="Queen 1976">
+        </div>
+
+        <p>Con los rumores de una posible separación a sus espaldas, Queen edita y lanza su sexto álbum de estudio en 1977, con temas que se convertirán en himnos deportivos protagonistas en Superbowls y todo evento deportivo que se precie.Sobre We are the champions, Freedie llegó a decir que la había compuesto para el Manchester United Football Club, aunque nunca se ha llegado a aclarar el origen de la letra.</p>
+
+        
+        
+        <div class="row pb-4">
+            <div class="embed-responsive embed-responsive-16by9 col-12 col-lg-6 mt-3 mb-5">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NVIbCvfkO3E"></iframe>
+            </div>
+
+            <p class="col-12 col-lg-6 d-flex align-items-center fuentenueva">A pesar de rechazar el uso de los sintetizadores desde los inicios, poniendo incluso en la carátula de su primer disco "no se han usado sintetizadores", The Game(1980) es el primer álbum de la banda en el que se usaron. La canción Another one bites the dust, compuesta por John Deacon, fue el cuarto single del álbum y el segundo número uno en Estados Unidos, a pesar de que la banda no consideraba lo suficientemente buena la canción escrita por el bajista.</p>
+        </div>  
+
+        <h3 class="mb-4">Queen consagrado</h3>
+            <p class="mb-4">El Magic Tour fue la última gira realizada por la banda. Se realizó en 1986 para la promoción del disco A Kind of Magic. Fue la gira más exitosa de la agrupación batiendo récords de público en el Reino Unido, donde tocaron ante cerca de 400 mil personas. La gira se realizó solo en Europa y se dieron 26 conciertos. Un año después de esta gira, el cantante Freddie Mercury es diagnosticado con sida. Como consecuencia de esto la banda dejó de dar conciertos en vivo por decisión personal de Mercury y el evidente debilitamiento de su estado de salud con el paso de los años</p>
+        </div>
+
+            <div class="text-center">
+            <img class="col-12 col-sm-10 col-md-9 pb-5" src="img/akom.jpg" title="Queen en Wembley 1986" alt="Queen en Wembley 1986">
+            </div>
+
+        <a name="despues-de-freddie"></a>     
+        <h2 class="mb-4 pb-4 pt-3 text-center colornuevo" v-once>Después de Freddie</h2>
+    <div class="container"> 
+        <p>Después de A kind of magic (1986) y su magic tour, que se convertiría en la última gira de Freddie con Queen, la banda británica saca otros dos álbumes de estudio (The Miracle e Innuendo) que pondrán el broche final al conjunto tal y como se le conocía hasta entonces.</p>
+        <p>I want it all, perteneciente a The Miracle, es un canto de fuerza. "Lo quiero todo y lo quiero ahora", dicen en esta canción. Sin embargo, la enfermedad de Freddie Mercury ya hacía estragos en él.El último trabajo de Queen, Innuendo, llegó a comienzos de 1991 como el legado que Mercury quiso dejar a los seguidores de la banda. "El espectáculo debe continuar", gritaba Mercury.El desenlace final llegó tan sólo dos días después del comunicado oficial que confirmaba que Freddie Mercury padecía sida. No obstante, tras su muerte, Queen se reafirmó. Bohemian raphsody se reeditó como sencillo, llegando a número uno en 1991, 16 años después de su lanzamiento. Los éxitos de la banda no dejaron de crecer, siendo todavía su primer álbum compilatorio, Greatest hits, el más vendido en la historia del Reino Unido.</p>
+
+        <div class="row pb-4">
+        <div class="d-xs-none d-sm-none d-md-block col-md-1"></div>
+            <img class="col-12 col-sm-5 col-md-4" src="img/queenend.jpg" title="20 años de Queen" alt="Útimas fotos de Queen">
+            <img class="col-12 col-sm-7 col-md-6" src="img/queenend2.jpg" title="Queen en Brit Awards 1990" alt="Queen">
+        </div>
+        <div class="row pt-3 pb-3 text-center">   
+        <div class="col-md-1 col-lg-1"></div>
+        <img class="col-12 col-sm-12 col-md-10" src="img/queenend4.jpg" title="Última foto de Freddie" alt="Última foto de Freedie"> 
+        </div>
     </div>  
-
-    <h3 class="mb-4">Queen consagrado</h3>
-        <p class="mb-4">El Magic Tour fue la última gira realizada por la banda. Se realizó en 1986 para la promoción del disco A Kind of Magic. Fue la gira más exitosa de la agrupación batiendo récords de público en el Reino Unido, donde tocaron ante cerca de 400 mil personas. La gira se realizó solo en Europa y se dieron 26 conciertos. Un año después de esta gira, el cantante Freddie Mercury es diagnosticado con sida. Como consecuencia de esto la banda dejó de dar conciertos en vivo por decisión personal de Mercury y el evidente debilitamiento de su estado de salud con el paso de los años</p>
-    </div>
-
-        <div class="text-center">
-        <img class="col-12 col-sm-10 col-md-9 pb-5" src="img/akom.jpg" title="Queen en Wembley 1986" alt="Queen en Wembley 1986">
-        </div>
-
-    <a name="despues-de-freddie"></a>     
-    <h2 class="mb-4 pb-4 pt-3 text-center colornuevo" v-once>Después de Freddie</h2>
-<div class="container"> 
-    <p>Después de A kind of magic (1986) y su magic tour, que se convertiría en la última gira de Freddie con Queen, la banda británica saca otros dos álbumes de estudio (The Miracle e Innuendo) que pondrán el broche final al conjunto tal y como se le conocía hasta entonces.</p>
-    <p>I want it all, perteneciente a The Miracle, es un canto de fuerza. "Lo quiero todo y lo quiero ahora", dicen en esta canción. Sin embargo, la enfermedad de Freddie Mercury ya hacía estragos en él.El último trabajo de Queen, Innuendo, llegó a comienzos de 1991 como el legado que Mercury quiso dejar a los seguidores de la banda. "El espectáculo debe continuar", gritaba Mercury.El desenlace final llegó tan sólo dos días después del comunicado oficial que confirmaba que Freddie Mercury padecía sida. No obstante, tras su muerte, Queen se reafirmó. Bohemian raphsody se reeditó como sencillo, llegando a número uno en 1991, 16 años después de su lanzamiento. Los éxitos de la banda no dejaron de crecer, siendo todavía su primer álbum compilatorio, Greatest hits, el más vendido en la historia del Reino Unido.</p>
-
-    <div class="row pb-4">
-    <div class="d-xs-none d-sm-none d-md-block col-md-1"></div>
-        <img class="col-12 col-sm-5 col-md-4" src="img/queenend.jpg" title="20 años de Queen" alt="Útimas fotos de Queen">
-        <img class="col-12 col-sm-7 col-md-6" src="img/queenend2.jpg" title="Queen en Brit Awards 1990" alt="Queen">
-    </div>
-    <div class="row pt-3 pb-3 text-center">   
-    <div class="col-md-1 col-lg-1"></div>
-    <img class="col-12 col-sm-12 col-md-10" src="img/queenend4.jpg" title="Última foto de Freddie" alt="Última foto de Freedie"> 
-    </div>
-</div>  
 </div>   
 </section>` 
 })
