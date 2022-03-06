@@ -4,8 +4,8 @@ Vue.component('home-c', {
 
     <v-row class="bg-info mt-3 anclas" id="anclas" justify="space-around">
         <v-btn text href="#queen-en-sus-comienzos">Queen en sus comienzos</v-btn>
-        <v-btn text color="primary" href="#la-banda-en-lacima">La banda en la cima</v-btn>
-        <v-btn text color="error" href="#despues-de-freddie">Despúes de Freddie</v-btn>
+        <v-btn text href="#la-banda-en-lacima">La banda en la cima</v-btn>
+        <v-btn text href="#despues-de-freddie">Despúes de Freddie</v-btn>
     </v-row>
 
 </div>
