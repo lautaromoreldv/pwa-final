@@ -108,7 +108,8 @@ input[type=text], input[type=email], input[type=tel]{
 	 flex-grow: 1;
 	 animation-duration: 1s;
 	 animation-fill-mode: both;
-	 background-color: red;
+	 background-color: lightgrey;
+	 cursor: pointer;
  }
 
 html{

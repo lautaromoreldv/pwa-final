@@ -5,7 +5,6 @@ if('serviceWorker' in navigator){
        }).catch(function (err){console.log('SW falló: ', err);});
 });
    }
-//funcion anónima auto-ejecutable. Todo lo que hay dentro está aislado del resto del código de la página.
 
 (function () {
 	
@@ -39,9 +38,9 @@ function showAddToHomeScreen() {
         .then(function (choiceResult) {
 
           if (choiceResult.outcome === 'accepted') {
-            console.log('El usuario acepto');
+            console.log('PWA :)');
           } else {
-            console.log('El usuario rechazó');
+            console.log('No hay PWA');
           }
 
           aviso = null;
@@ -54,4 +53,4 @@ function showAddToHomeScreen() {
 
   showAddToHomeScreen();
 
-})(); //Ejecutamos la función
+})(); 
