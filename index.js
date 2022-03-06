@@ -295,7 +295,7 @@ Vue.component('contacto-c', {
                                 <div class="row justify-content-center">  
                                     <div class="col-md-10 col-lg-8">
 
-                                    <form action="datos.html" method="post" enctype="multipart/form-data" name="form">
+                                    <form action="#" method="post" enctype="multipart/form-data" name="formC" class="mb-5 pb-5" id="formC">
 
                                         <div class="form-group">
                                             <label for="nombre">Nombre</label>
@@ -312,57 +312,14 @@ Vue.component('contacto-c', {
                                         <input type="email" class="form-control" name="email" id="email" placeholder="Escriba su e-mail..." autocomplete="off" required/>
                                         </div>
 
-
-                                        <h3 class="pt-3">Elija cuales fueron para usted los mejores shows</h3>
-                                        <p class="pt-2 pb-3">Al enviar este formulario se sorteran entradas para la próxima presentación de la banda.</p>
-
-                                        <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" value="Live Killers" class="custom-control-input" id="Live Killers">
-                                        <label class="custom-control-label" for="Live Killers">Live Killers</label>
-                                        </div>
-
-                                        <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" value="Live Magic" class="custom-control-input" id="Live Magic">
-                                        <label class="custom-control-label" for="Live Magic">Live Magic</label>
-                                        </div>
-
-                                        <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" value="Live at Wembley '86" class="custom-control-input" id="Live at Wembley">
-                                        <label class="custom-control-label" for="Live at Wembley">Live at Wembley '86</label>
-                                        </div>
-
-                                        <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" value="Queen on Fire - Live at the Bowl" class="custom-control-input" id="Queen on Fire - Live at the Bowl">
-                                        <label class="custom-control-label" for="Queen on Fire - Live at the Bowl">Queen on Fire - Live at the Bowl</label>
-                                        </div>
-
-                                        <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" value="Return of the Champions" class="custom-control-input" id="Return of the Champions">
-                                        <label class="custom-control-label" for="Return of the Champions">Return of the Champions</label>
-                                        </div>
-
-                                        <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" value="Queen Rock Montreal" class="custom-control-input" id="Queen Rock Montreal">
-                                        <label class="custom-control-label" for="Queen Rock Montreal">Queen Rock Montreal</label>
-                                        </div>
-
-                                        <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" value="Live at the Rainbow '74" class="custom-control-input" id="Live at the Rainbow">
-                                        <label class="custom-control-label" for="Live at the Rainbow">Live at the Rainbow '74</label>
-                                        </div>
-
-                                        <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" value="A Night At The Odeon - Queen Live At Hammersmith" class="custom-control-input" id="A night At The Odeon - Queen Live At Hammersmith">
-                                        <label class="custom-control-label" for="A night At The Odeon - Queen Live At Hammersmith">A Night At The Odeon - Queen Live At Hammersmith</label>
-                                        </div>
-
+                                        
                                         <div class="form-group mt-4">
                                         <label for="comentario">Deje su comentario</label>
                                         <textarea class="form-control" name="comentario" id="comentario" cols="30" rows="5"></textarea>
                                         </div>
                                         <h3>Si los datos son correctos presioná el botón Enviar</h3>
 
-                                        <v-btn block outlined color="indigo" type="submit" value="Enviar" name="enviar">
+                                        <v-btn block outlined color="indigo" type="submit" value="Enviar" name="enviar" class="mb-5">
                                             Enviar
                                         </v-btn>
                                         </form>

@@ -134,4 +134,3 @@ mostrar.addEventListener('click', (ev) => {
         }
     }
 })
-
