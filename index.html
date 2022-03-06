@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="icon" href="favicon.ico" type="image/ico" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/vuetify.min.css">
+    <link rel="stylesheet" href="css/roboto.css">
+    <link rel="stylesheet" href="css/materialdesignicons.css">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    
+    <script src="js/vue.js"></script>
+    <script src="js/vuetify.js"></script>
+    <script src="js/vue-router.js"></script>
+    <title>Prueba 22</title>
+</head>
+<body>
+
+  <div id="app">
+    <v-app id="inspire">
+        <v-app-bar>
+
+          <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+    
+          <v-spacer></v-spacer>
+            <v-img lazy-src="img/logo0.png" max-height="150" max-width="250" src="img/logo0.png">
+            </v-img>
+          <v-spacer></v-spacer>
+          
+        </v-app-bar>
+
+        <v-navigation-drawer v-model="drawer" absolute left temporary height="100vh">
+          <v-list nav>
+          
+            <v-list-item-group
+              v-model="group"
+              active-class="deep-purple--text text--accent-4"
+            >
+              <v-list-item>
+                <router-link to="/">Home</router-link>
+              </v-list-item>
+    
+              <v-list-item>
+                <router-link to="/galeria">Galería</router-link>
+              </v-list-item>
+    
+              <v-list-item>
+                <router-link to="/tienda">Tienda</router-link>
+              </v-list-item>
+    
+              <v-list-item>
+                <router-link to="/contacto">Contacto</router-link>
+              </v-list-item>
+            </v-list-item-group>
+          </v-list>
+        </v-navigation-drawer>
+
+          <transition name="fade" mode="out-in">
+              <router-view></router-view>
+          </transition>
+
+      </v-app>
+    </div>
+
+<div class="agregar-alerta" class="efecto">
+    <p class="mensaje">Instalar</p>
+</div>
+    
+<script src="application.js"></script>  
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+    <script src="abm.js"></script>
+    
+</body>
+</html>
