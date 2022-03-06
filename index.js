@@ -1,12 +1,16 @@
 Vue.component('home-c', {
     template: `<section>
-<div class="container bg-light">
+<div class="bg-light">
 
     <v-row class="bg-info mt-3 anclas" id="anclas" justify="space-around">
         <v-btn text href="#queen-en-sus-comienzos">Queen en sus comienzos</v-btn>
         <v-btn text href="#la-banda-en-lacima">La banda en la cima</v-btn>
         <v-btn text href="#despues-de-freddie">Despúes de Freddie</v-btn>
     </v-row>
+
+
+
+<div class="container">
 
     <a name="queen-en-sus-comienzos"></a>
                 <h2 class="mt-3 pt-3 pb-4 text-center">Queen en sus comienzos</h2>
@@ -87,7 +91,8 @@ Vue.component('home-c', {
         <img class="col-12 col-sm-12 col-md-10" src="img/queenend4.jpg" title="Última foto de Freddie" alt="Última foto de Freedie"> 
         </div>
     </div>  
-</div>   
+    </div> 
+</div>  
 </section>` 
 })
 
