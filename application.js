@@ -13,7 +13,6 @@ if('serviceWorker' in navigator){
   window.addEventListener('beforeinstallprompt', function (e) {
        e.preventDefault();
          aviso = e;
-           console.log(aviso)
 
     showAddToHomeScreen();
 
@@ -21,7 +20,6 @@ if('serviceWorker' in navigator){
 
 function showAddToHomeScreen() {
     var mostrarAlerta = document.querySelector(".agregar-alerta");
-    console.log(mostrarAlerta);
         if(mostrarAlerta != undefined){
         mostrarAlerta.style.display = "flex";
         mostrarAlerta.addEventListener("click", addToHomeScreen);
