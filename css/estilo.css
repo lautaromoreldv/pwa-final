@@ -112,6 +112,17 @@ input[type=text], input[type=email], input[type=tel]{
 	 cursor: pointer;
  }
 
+.header{
+    background-color: orange;
+}
+.online{
+    background-color: orange;
+}
+
+.offline{
+    background-color: grey !important;
+}
+
 html{
 	scroll-behavior: smooth;
 }
