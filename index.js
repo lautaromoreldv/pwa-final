@@ -295,7 +295,7 @@ Vue.component('contacto-c', {
                                 <div class="row justify-content-center">  
                                     <div class="col-md-10 col-lg-8">
 
-                                    <form action="#/" method="post" enctype="multipart/form-data" name="formC" class="mb-5 pb-5" id="formC">
+                                    <form action="#" method="post" enctype="multipart/form-data" name="formC" class="mb-5 pb-5" id="formC">
 
                                         <div class="form-group">
                                             <label for="nombre">Nombre</label>
